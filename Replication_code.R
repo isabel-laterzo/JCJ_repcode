@@ -1,15 +1,18 @@
 ########################################################
-##### JPV Survey Regressions: Experimental Analysis ####
+##### Who is to Blame? Youth crime and attribution of responsibility in urban Mexico
+##### By: Omar García-Ponce, Isabel Laterzo, Vivian Bronsoler, Elisa Lavore, Shahriar Kibriya
+##### Journal of Criminal Justice, 2023
+##### Replication Code for Main Analysis ####
 ########################################################
 
 ##################################################################################
 #################################### SET UP ######################################
 ##################################################################################
 rm(list = ls())
-setwd("/Users/il6279/Dropbox/Research Projects/GarciaPonce_Laterzo_Experiment/Models/Main Analysis")
+#setwd("") set working director with data
 pacman::p_load(stargazer, tidyverse, ggplot2)
 
-data <- readRDS("/Users/il6279/Dropbox/Research Projects/GarciaPonce_Laterzo_Experiment/Models/data_1_18_22.rds")
+data <- readRDS("data_1_18_22.rds")
 
 #libraries
 library(stargazer)
